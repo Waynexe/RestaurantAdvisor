@@ -16,3 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/* Route::post('/register', UserController::class, 'store');
+Route::get('/users', UserController::class, 'index');
+
+Route::get('/restaurants', RestaurantController::class, 'index');
+Route::post('/restaurant', RestaurantController::class, 'store');
+Route::put('/restaurant/{id}', RestaurantController::class, 'update');
+Route::delete('/restaurant/{id}', RestaurantController::class, 'destroy');
+ */
